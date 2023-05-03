@@ -3,14 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Redirect Example</title>
-    <meta http-equiv="refresh" content="10;url=https://www.scbeic.com/th/page/scan-qrcode-eicline-wbg?utm_source=poomtest">
   </head>
   <body>
     <p>You will be redirected to https://example.com in 5 seconds.</p>
     <script type="text/javascript">
-      window.setTimeout(function() {
-        window.location.href = "https://www.google.com";
+      setTimeout(function(){
+        window.location.href = "https://www.scbeic.com/th/page/scan-qrcode-eicline-wbg?utm_source=poomtest";
       }, 5000);
+      setTimeout(function(){
+        window.location.href = "https://www.google.com";
+      }, 10000);
     </script>
   </body>
 </html>
