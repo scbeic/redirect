@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Redirecting to new URL</title>
+</head>
+<body>
+	<p>Please wait while you are redirected to the new URL.</p>
+	<p>If you are not automatically redirected, click <a href="https://www.newurl.com">here</a>.</p>
+
+	<script>
+		setTimeout(function() {
+			window.location.href = "https://www.differenturl.com";
+		}, 5000);
+	</script>
+</body>
+</html>
